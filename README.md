@@ -25,7 +25,7 @@ A solução implementada conta com os seguintes componentes-chave:
 ## 📸 Diagrama da Arquitetura
 A imagem abaixo representa a infraestrutura final que foi implementada:
 
-![Diagrama da Arquitetura AWS](./diagrama-arquitetura.png)
+![Diagrama da Arquitetura AWS](./diagrama-do-cliente.png)
 
 ## ✅ Resultado
 O projeto foi concluído com sucesso, resultando em uma infraestrutura pronta para produção, que isola os recursos críticos e fornece a conectividade necessária de forma segura.
