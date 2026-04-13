@@ -31,5 +31,5 @@ A imagem abaixo representa a infraestrutura final que foi implementada:
 O projeto foi concluído com sucesso, resultando em uma infraestrutura pronta para produção, que isola os recursos críticos e fornece a conectividade necessária de forma segura.
 
 ## 🔗 Sobre Mim
-- Meu perfil no GitHub: [Nome De Usuário Do Seu GitHub]
-- Meu perfil no LinkedIn: [Seu Link Do LinkedIn]
+- Meu perfil no GitHub: ThiagoMouraInfoCloud
+- Meu perfil no LinkedIn: www.linkedin.com/in/thiago-moura-infracloud
