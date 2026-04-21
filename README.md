@@ -1,16 +1,19 @@
-# Projeto AWS: VPC e Web Server
+# ☁️ Implementação de Infraestrutura AWS: Servidor Web com VPC
 
-Este repositório contém a documentação e evidências do laboratório de implementação de uma infraestrutura escalável na AWS.
+## 📝 Sobre o Projeto
+Este laboratório foi realizado durante o programa **AWS re/Start (Escola da Nuvem)**. O objetivo foi projetar e implementar uma arquitetura de rede segura e resiliente na AWS para hospedar um servidor web.
 
-## 🌐 Infraestrutura de Rede (VPC)
-![Networking](LAB.jpg)
-> **Legenda:** Implementação de subnets públicas e privadas com CIDR 10.0.0.0/16, garantindo isolamento e alta disponibilidade entre Zonas de Disponibilidade.
+## 🛠️ O que foi construído:
+- **Rede Isolada:** Criação de uma VPC personalizada para garantir a segurança dos dados.
+- **Alta Disponibilidade:** Distribuição em duas Zonas de Disponibilidade (AZs) para evitar quedas.
+- **Segurança em Camadas:** Divisão entre subnets públicas (para o servidor) e privadas (para recursos sensíveis).
+- **Conectividade:** Configuração de Internet Gateway para acesso externo e NAT Gateway para atualizações seguras.
 
-## 🖥️ Servidor Web (EC2)
-![Compute](LB2.jpg)
-> **Legenda:** Instância operacional com status 2/2 checks passed na região us-west-2 (Oregon), validando a integridade do hardware e sistema operacional.
+## 📐 Diagrama da Arquitetura
+Abaixo está o desenho técnico da infraestrutura que implementei:
 
-## 🛠️ Tecnologias Utilizadas
-* **Cloud:** AWS (VPC, EC2, Subnets, IGW)
-* **Região:** us-west-2
-* **Instância:** t3.micro
+![Diagrama da Arquitetura](./diagrama-do-cliente.png)
+
+## ✅ Resultados
+- Servidor Linux (EC2) rodando Apache com script de automação.
+- Tabelas de roteamento configuradas para controle total do tráfego.
